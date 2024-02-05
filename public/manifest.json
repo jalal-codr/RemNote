@@ -1,17 +1,15 @@
 {
+  "author": "Jalal",
+  "name": "Google Sheet",
+  "description": "An embeded google sheet plugin",
+  "enableOnMobile": true,
+  "id": "Jalal-ganuain",
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
-  "author": "remnote",
-  "repoUrl": "",
   "version": {
     "major": 0,
     "minor": 0,
     "patch": 1
   },
-  "theme": [],
-  "enableOnMobile": false,
-  "description": "",
   "requestNative": false,
   "requiredScopes": [
     {
@@ -19,4 +17,5 @@
       "level": "Read"
     }
   ]
+  ,"repoUrl": "https://github.com/jalal-codr/RemNote.git"
 }
