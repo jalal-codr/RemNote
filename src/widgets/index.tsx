@@ -10,7 +10,7 @@ async function onActivate(plugin: ReactRNPlugin) {
     {
       dimensions: {
         height: 'auto',
-        width: 350,
+        width: 500,
       },
     },
   );

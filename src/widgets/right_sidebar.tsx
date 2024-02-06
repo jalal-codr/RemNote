@@ -1,12 +1,10 @@
 import { renderWidget } from '@remnote/plugin-sdk';
+import Form from '../Components/Form';
 function MyWidget() {
 
-    const click  =  ()=>{
-        alert("Hello")
-    }
-
     return <>
-    </>;
+    <Form/>
+    </>
   }
   
 renderWidget(MyWidget);
