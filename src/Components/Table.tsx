@@ -1,9 +1,14 @@
 import React from 'react'
 
-function Table() {
+interface Props{
+    url:string,
+}
+
+function Table(prop:Props) {
+    const src:string =  prop.url
   return (
     <>
-      <p>Table page</p>
+      <iframe src={src} width="98%" height="840"></iframe>
     </>
   )
 }

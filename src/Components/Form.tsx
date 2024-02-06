@@ -19,7 +19,7 @@ const getTxt = (e:any)=>{
 
 const render = ()=>{
     if(url){
-        return(<Table/>)
+        return(<Table url={url}/>)
     }
     else{
         return(<>
