@@ -8,7 +8,7 @@ function Table(prop:Props) {
     const src:string =  prop.url
   return (
     <>
-      <iframe src={src} width="98%" height="840"></iframe>
+      <iframe src={src} width="99%" height="840"></iframe>
     </>
   )
 }

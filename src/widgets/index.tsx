@@ -5,7 +5,7 @@ import '../App.css';
 async function onActivate(plugin: ReactRNPlugin) {
   // Register settings
   await plugin.app.registerWidget(
-    'right_sidebar',
+    'under_rem_editor',
     WidgetLocation.RightSidebar,
     {
       dimensions: {
