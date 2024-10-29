@@ -1,6 +1,6 @@
 # GoogleSheet
 
-A googgle sheet 
+A google sheet Plugin 
 
 ## Usage
 
